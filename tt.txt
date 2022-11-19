@@ -1,0 +1,32 @@
+AIM: Logic gate is a basic building block of a digital circuit. So verify the truth tables of all
+m.
+Inputs Output
+A B AND or not nand nor ex or ex nor
+
+0 0  0   0  1   1    1    0     1
+0 1 0    1  -   1    0    1     0
+1 0 0    1  0   1    0    1     0
+1 1 1    1  -   0    0    0     1
+
+
+HALF ADDER
+Input Output
+A B SUM CARRY
+0 0 0 0
+0 1 1 0
+1 0 1 0
+1 1 0 1
+
+FUll Adder
+
+) Truth Table:
+Input Output
+A B Cin Sum Cout
+0 0 0 0 0
+0 0 1 1 0
+0 1 0 1 0
+0 1 1 0 1
+1 0 0 1 0
+1 0 1 0 1
+1 1 0 0 1
+1 1 1 1 1
